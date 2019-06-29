@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "session timer hook",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "tsc && echo 'Finished building NPM package'",
