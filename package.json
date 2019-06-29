@@ -1,0 +1,39 @@
+{
+  "name": "react-usesessiontimer",
+  "version": "1.0.0",
+  "description": "session timer hook",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc && echo 'Finished building NPM package'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb-san/react-useSessionTimer.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "session",
+    "timer"
+  ],
+  "author": "Jonathan Borg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jb-san/react-useSessionTimer/issues"
+  },
+  "homepage": "https://github.com/jb-san/react-useSessionTimer#readme",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
